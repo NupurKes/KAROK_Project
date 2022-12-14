@@ -1,0 +1,81 @@
+.team{
+    width :50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+   /* margin-top: 3rem;
+    text-align: center;*/
+}  
+.button{
+   margin-right: 4rem;
+   background-color: var(--buttonBg);
+   color:aliceblue;
+   font-size: 12px;
+
+  
+}
+
+.about{
+    display:flex;
+    flex-direction: row;
+    padding-left: 13rem;
+    margin-top: 5rem;
+    gap:2rem;
+   
+   
+    
+}
+
+.image{
+   
+    margin-left: 2rem;
+}
+
+.title{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.cardBody{
+    position: relative;
+}
+.pageTitle{
+    margin-bottom: -2rem;
+    text-align: center;
+    font-size: 25px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.textCard{
+    /* justify-content:center; */
+    font-size: 14px;
+    text-align: justify;
+    
+}
+
+.Webname {
+    font-size: 3rem;
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: var(--buttonBg);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. 
+    https://css-tricks.com/almanac/properties/b/background-clip/*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.roundedImage{
+    border-radius: 50%;
+    margin-left: 40px;
+}
+

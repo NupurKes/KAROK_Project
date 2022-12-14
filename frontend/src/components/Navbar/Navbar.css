@@ -1,0 +1,22 @@
+.logout{
+    margin-left: 30rem;
+    width: 7rem;
+    background: var(--buttonBg);
+    float: right;
+    border: none;
+    outline: none;
+}
+.logout-button{
+    width: 7rem;
+    height: 2rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+}
+.logoNav{
+    border-radius: 10px;
+   margin-left: 15px;
+}
+.brandName{
+    padding-left: 15px;
+    font-size: 40px;
+}

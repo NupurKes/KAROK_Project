@@ -1,0 +1,11 @@
+.contactForm{
+    width :45%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.buttonSend{
+    background: var(--buttonBg);
+    
+}
